@@ -1,9 +1,10 @@
 #!/bin/bash
 
 mkdir "/root/home"
-cd /root/home
+
+cd /root/home || { echo 'Не удалось перейти в папку home'; exit 1; }
 git clone https://github.com/windn19/jenkins.git
-cd /root/home/jenkins
+cd /root/home/jenkins || { echo 'Не удалось перейти в папку jenkins'; exit 1; }
 python3 -m venv .venv
 
 source  .venv/bin/activate
