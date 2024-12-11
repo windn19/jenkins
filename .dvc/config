@@ -1,0 +1,5 @@
+['remote "mydisk"']
+    url = gdrive://1726QAvC9ASGjXSBHBA76S2cuQ1hnL43Y/titanic
+    gdrive_acknowledge_abuse = true
+    gdrive_client_id = "247312694214-69rtvkpjjf1kl4j0j2c9u51cb11vaq1n.apps.googleusercontent.com"
+    gdrive_client_secret = "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"
